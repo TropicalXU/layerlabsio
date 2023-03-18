@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-style {
+  font-family: 'Kanit', sans-serif !important;
+}
+
+.font-style-2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.gradient-text {
+  background-color: #f3ec78;
+  background: radial-gradient(circle at 10% 20%, rgb(64, 84, 178) 0%, rgb(219, 2, 234) 90%);
+ -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+.text-grey {
+  color: #8d99ae;
+}
+
+.btn-gradient {
+  color: white;
+  background: radial-gradient(circle at 10% 20%, rgb(64, 84, 178) 0%, rgb(219, 2, 234) 90%);
+  border-radius: 50px;
+  border: none;
+  padding: 8px 24px 8px 24px;
+}
+
+.btn-gradient:hover {
+  color: rgb(255, 255, 255);
+  border: none;
+  background-color: rgba(0, 0, 0, 0.476);
+  background-image: none;
+  transition: all ease-in-out 1s;
+}
+
+.bg-gradient {
+  background: radial-gradient(circle at 10% 20%, rgb(64, 84, 178) 0%, rgb(219, 2, 234) 90%);
+}
+
+.about-header {
+  height: 500px;
+  background-image: url("https://res.cloudinary.com/dhrs5mwhz/image/upload/v1655054175/LayerLabs/dynamic-wang-EHnrP9CanuQ-unsplash_x98uqd.jpg");
+  background-size: cover;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgb(190, 190, 190);
+  margin: auto;
+}
+
+.footer li:hover {
+ color: black;
+}
+
+.navbar li:hover {
+  opacity: .6;
+}
+
+.cookie-consent {
+  background-color: white;
+  box-shadow: 0 0 10px rgb(190, 190, 190);
+}
+.cookie-consent p {
+  font-size: 12px;
+}
+
+
