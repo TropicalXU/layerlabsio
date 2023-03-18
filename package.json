@@ -8,15 +8,10 @@
     "npm": "8.5.5"
   },
   "scripts": {
+    "start": "npm run build",
     "dev": "vite",
-    "preview": "vite preview",
-    "build": "npm run build:client && npm run build:server",
-    "build:client": "vite build",
-    "build:server": "tsc",
-    "start": "npm-run-all --parallel start:*",
-    "start:client": "vite preview",
-    "start:server": "node dist/server/index.js",
-    "postinstall": "npm run build"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.5.1",
