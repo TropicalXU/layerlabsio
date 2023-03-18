@@ -8,7 +8,7 @@
     "npm": "8.5.5"
   },
   "scripts": {
-    "start": "serve -s build",
+    "start": "npm run build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
