@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "start": "npm start",
+    "start": "vite start",
     "build": "vite build",
     "preview": "vite preview"
   },
